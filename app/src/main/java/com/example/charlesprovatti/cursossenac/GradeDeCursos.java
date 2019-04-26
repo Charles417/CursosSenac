@@ -94,13 +94,14 @@ public class GradeDeCursos extends AppCompatActivity {
             TextView textViewPreco1 = new TextView(this);
 
             textViewItem1.setText(lista.get(i).getNome());
-            textViewItem1.setTextSize(18);
+            textViewItem1.setTextSize(20);
+            textViewItem1.setTypeface(textViewItem1.getTypeface(). DEFAULT_BOLD);
             textViewItem1.setTextColor(getResources().getColor(R.color.colorAccent));
             textViewDesc1.setText(lista.get(i).getDescricao());
-            textViewDesc1.setTextSize(14);
+            textViewDesc1.setTextSize(16);
             textViewDesc1.setTextColor(getResources().getColor(R.color.colorBlack));
             textViewPreco1.setText("R$ " + lista.get(i).getPreco().toString());
-            textViewPreco1.setTextSize(14);
+            textViewPreco1.setTextSize(16);
             textViewPreco1.setTextColor(getResources().getColor(R.color.colorBlack));
 
             layoutLinear.addView(textViewItem1);
