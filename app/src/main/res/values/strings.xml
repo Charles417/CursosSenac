@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CursosSenac</string>
+    <string name="titulo">Titulo do Curso</string>
+</resources>
